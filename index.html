@@ -7,9 +7,15 @@
 
     <style>
       body {
-        background-color: gray;
-        height: 100px;
-        width: 50%;
+        background-color: #f0f0f0;
+        max-width: 800px;
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
       }
 
       h1 {
@@ -26,24 +32,46 @@
       ol {
         font-size: 24px;
       }
+
+      a {
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: darkblue;
+      }
+
+      h1,
+      h3 {
+        margin-bottom: 10px;
+      }
+
+      p,
+      ol {
+        margin-bottom: 20px;
+      }
     </style>
   </head>
   <body>
-    <h1>Mohammed Osman</h1>
-    <p>
-      Hello, i am learning web development to become a front-end development. I
-      am passionate about technology and solving problems through design.
-    </p>
-    <h3>My Interest List</h3>
-    <ol>
-      <li>I love learning new thing</li>
-      <li>I love watching and playing Football</li>
-      <li>I love Jollof Rice</li>
-    </ol>
+    <main>
+      <h1>Mohammed Osman</h1>
+      <p>
+        Hello, i am learning web development to become a front-end development.
+        I am passionate about technology and solving problems through design.
+      </p>
+      <h3>My Interest List</h3>
+      <ol>
+        <li>I love learning new thing</li>
+        <li>I love watching and playing Football</li>
+        <li>I love Jollof Rice</li>
+      </ol>
 
-    <p>
-      Lets get in touch
-      <a href="https://github.com/B-Osman40/demo-repo">Git-Hub</a>
-    </p>
+      <p>
+        Lets get in touch
+        <a href="https://github.com/B-Osman40/demo-repo" target="_blank"
+          >Git-Hub</a
+        >
+      </p>
+    </main>
   </body>
 </html>
